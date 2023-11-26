@@ -5,8 +5,8 @@ ScriptName Fragments:Quests:QF_COM_CoraWantsAllTheBooks Extends Quest
     210 - EAW_Book_HistoryOfPyrates_m "History of the Pyrates" [BOOK:0013FE99]
     220 - ECS_Book_WhatIfRight "What if I'm Right?" [BOOK:0007FA34]
     230 - NH_Book_SimplerTimes_m "Simpler Times" [BOOK:0007FABA]
-    240 - Book_SanctumUniversum03a "A Greater End, Vol 1" [BOOK:00138CCE]
-    250 - Book_SanctumUniversum03b "A Greater End, Vol 3" [BOOK:00138CCD]
+    240 - OPEN
+    250 - OPEN
     260 - EAW_Book_OriginofSpecies_m "The Origin of Species" [BOOK:0013E863]
     270 - EAW_Book_CarrieOfCosmos_m "Carrie of the Cosmos" [BOOK:0013FE97]
     280 - EAW_Book_WarOfWorlds_m "War of the Worlds" [BOOK:0013FE98]
@@ -18,7 +18,7 @@ ScriptName Fragments:Quests:QF_COM_CoraWantsAllTheBooks Extends Quest
     340 - EAW_Book_Xeno_m "History of Xenobiology" [BOOK:0015DA29]
     350 - EAW_Book_GravityParadigm_m "The Gravity Paradigm" [BOOK:0018641F]
     360 - Book_StoryOfTheHeavens "Story of the Heavens" [BOOK:00255484]
-    370 - BR_Book_SanctumUniversum02a "A Greater End, Vol 2" [BOOK:##000801]
+    370 - OPEN
     380 - BR_Book_HistoryOfPyrates_2 "A General History of the Pyrates Vol 2" [BOOK:##000800]
 
     3000 - FFCydoniaR03_Book01 "Dragonstar Force Vol 1" [BOOK:0023E972]
@@ -65,7 +65,7 @@ GlobalVariable Property Venpi_DebugEnabled Auto Const Mandatory
 ;;; Properties
 ;;;
 ObjectReference Property PlayerRef Auto Const Mandatory
-Book Property EAW_Book_HistoryOfPyrates Auto Const Mandatory
+Book Property EAW_Book_HistoryOfPyrates_m Auto Const Mandatory
 Book Property ECS_Book_WhatIfRight Auto Const Mandatory
 Book Property NH_Book_SimplerTimes_m Auto Const Mandatory
 Book Property EAW_Book_OriginofSpecies_m Auto Const Mandatory
@@ -92,14 +92,37 @@ Book Property BR_Book_HistoryOfPyrates_2 Auto Const Mandatory
 ;;; Events
 ;;;
 
+Event OnQuestInit()
+  VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "OnQuestInit", "Event OnQuestInit Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+EndEvent
+
+Event OnQuestRejected()
+  VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "OnQuestRejected", "Event OnQuestRejected Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+EndEvent
+
+Event OnQuestShutdown()
+  VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "OnQuestShutdown", "Event OnQuestShutdown Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+EndEvent
+
+Event OnQuestStarted()
+  VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "OnQuestStarted", "Event OnQuestStarted Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+EndEvent
+
+Event OnReset()
+  VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "OnReset", "Event OnReset Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+EndEvent
+
+Event OnStageSet(Int auiStageID, Int auiItemID)
+  VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "OnStageSet", "Event OnStageSet Triggered. Stage is " + auiStageID + " item is " + auiItemID + ".", 0, Venpi_DebugEnabled.GetValueInt())
+EndEvent
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
 ;;; Functions/Fragments
 ;;;
 Function Fragment_Stage_0210()
-  VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "Fragment_Stage_0210_Item_00", "Stage 210 Fragment for EAW_Book_HistoryOfPyrates triggered.", 0, Venpi_DebugEnabled.GetValueInt())
-  PlayerRef.RemoveItem(EAW_Book_HistoryOfPyrates as Form, 1, False, None)
+  VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "Fragment_Stage_0210_Item_00", "Stage 210 Fragment for EAW_Book_HistoryOfPyrates_m triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+  PlayerRef.RemoveItem(EAW_Book_HistoryOfPyrates_m as Form, 1, False, None)
 EndFunction
 
 Function Fragment_Stage_0220()
@@ -111,16 +134,6 @@ Function Fragment_Stage_0230()
   VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "Fragment_Stage_0230_Item_00", "Stage 230 Fragment for NH_Book_SimplerTimes_m triggered.", 0, Venpi_DebugEnabled.GetValueInt())
   PlayerRef.RemoveItem(NH_Book_SimplerTimes_m as Form, 1, False, None)
 EndFunction
-
-; Function Fragment_Stage_0240()
-;   VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "Fragment_Stage_0240_Item_00", "Stage 240 Fragment for Book_SanctumUniversum03a triggered.", 0, Venpi_DebugEnabled.GetValueInt())
-;   PlayerRef.RemoveItem(Book_SanctumUniversum03a as Form, 1, False, None)
-; EndFunction
-
-; Function Fragment_Stage_0250()
-;   VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "Fragment_Stage_0250_Item_00", "Stage 250 Fragment for Book_SanctumUniversum03b triggered.", 0, Venpi_DebugEnabled.GetValueInt())
-;   PlayerRef.RemoveItem(Book_SanctumUniversum03b as Form, 1, False, None)
-; EndFunction
 
 Function Fragment_Stage_0260()
   VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "Fragment_Stage_0260_Item_00", "Stage 260 Fragment for EAW_Book_OriginofSpecies_m triggered.", 0, Venpi_DebugEnabled.GetValueInt())
@@ -177,12 +190,11 @@ Function Fragment_Stage_0360()
   PlayerRef.RemoveItem(Book_StoryOfTheHeavens as Form, 1, False, None)
 EndFunction
 
-; Function Fragment_Stage_0370()
-;   VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "Fragment_Stage_0370_Item_00", "Stage 370 Fragment for BR_Book_SanctumUniversum02a triggered.", 0, Venpi_DebugEnabled.GetValueInt())
-;   PlayerRef.RemoveItem(BR_Book_SanctumUniversum02a as Form, 1, False, None)
-; EndFunction
-
 Function Fragment_Stage_0380()
   VPI_Debug.DebugMessage("QF_COM_CoraWantsAllTheBooks", "Fragment_Stage_0380_Item_00", "Stage 380 Fragment for BR_Book_HistoryOfPyrates_2 triggered.", 0, Venpi_DebugEnabled.GetValueInt())
   PlayerRef.RemoveItem(BR_Book_HistoryOfPyrates_2 as Form, 1, False, None)
+EndFunction
+
+Function Fragment_Stage_9000()
+  Self.Stop()
 EndFunction
