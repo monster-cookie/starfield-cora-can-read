@@ -1,5 +1,8 @@
 # V1.0 Permutations
 
+## V1.0.2
+* Using ChatGPT generated lines for the initial quest so they sound more like a young girl said them. 
+
 ## V1.0.1
 * Cora will now take dracula 
 * Dracula and War of the world now have chat gpt created responses
