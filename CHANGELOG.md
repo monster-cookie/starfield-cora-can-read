@@ -1,5 +1,10 @@
 # V1.0 Permutations
 
+## V1.0.3
+* Split some more of the responses there were supposed to be random in to separate responses in a dialog group
+* There is a new random skit that will spawn when cora, you, and Sam are together that will trigger the "Cora want books" quest. This is sort of a sucky way cause without voice acting nothing plays for skits. I'm going to see if I can use one of the other quest tree will work so you have mostly voice acting to tell you what is going on. I'm also going to add a new random drop book that when read will start the quest. 
+* "Cora wants/consumes books" quests are now gated behind Sam being and active crew member. 
+
 ## V1.0.2
 * Using ChatGPT generated lines for the initial quest so they sound more like a young girl said them. 
 
