@@ -9,4 +9,4 @@ REM Clear Dist DIR
 del /q "C:\Users\degre\Downloads\CoraCanRead.zip"
 
 REM Archive Dist Dir
-.\7za.exe a -tzip "C:\Users\degre\Downloads\CoraCanRead.zip" "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist\*.*"
+"D:\Program Files\PexTools\7za.exe" a -tzip "C:\Users\degre\Downloads\CoraCanRead.zip" "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist\*.*"

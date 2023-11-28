@@ -43,7 +43,7 @@ copy /y "D:\MO2Staging\Starfield\mods\CoraCanRead-Experimental\CoraCanRead.esm" 
 
 @REM Create and copy the BA2 Textures Archive to Dist folder
 @REM @echo "Creating the BA2 Textures Archive"
-@REM BSArch64.exe pack "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Textures" "CoraCanRead - Textures.ba2" -sf1dds -mt && (
+@REM "D:\Program Files\xEdit\BSArch64.exe" pack "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Textures" "CoraCanRead - Textures.ba2" -sf1dds -mt && (
 @REM   @echo "Textures Archive successfully assembled"
 @REM   (call )
 @REM ) || (
