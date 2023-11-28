@@ -1,4 +1,4 @@
-ScriptName COM_CoraWantsAllTheBooks_ProcessBook Extends TopicInfo
+ScriptName COM_CoraConsumesAllTheBooks_ProcessBook Extends TopicInfo
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
@@ -25,14 +25,15 @@ LeveledItem Property COM_COMPANION_CoraCoe_Gift Auto Const Mandatory
 ;;; Events
 ;;;
 Event OnBegin(ObjectReference akSpeakerRef, Bool abHasBeenSaid)
-  VPI_Debug.DebugMessage("COM_CoraWantsAllTheBooks_ProcessBook", "OnBegin", "TOPIC (Stage " + StageIDToComplete + "): Event OnBegin Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+  VPI_Debug.DebugMessage("COM_CoraConsumesAllTheBooks_ProcessBook", "OnBegin", "TOPIC (Stage " + StageIDToComplete + "): Event OnBegin Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
 EndEvent
 
 Event OnEnd(ObjectReference akSpeakerRef, Bool abHasBeenSaid)
-  VPI_Debug.DebugMessage("COM_CoraWantsAllTheBooks_ProcessBook", "OnEnd", "TOPIC (Stage " + StageIDToComplete + "): Event OnEnd Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+  VPI_Debug.DebugMessage("COM_CoraConsumesAllTheBooks_ProcessBook", "OnEnd", "TOPIC (Stage " + StageIDToComplete + "): Event OnEnd Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
   PlayerRef.RemoveItem(BookCoraWants as Form, 1, False, None)
   Utility.Wait(0.5)
   PlayerRef.AddItem(COM_COMPANION_CoraCoe_Gift as Form, 1, False)
+  VPI_Debug.DebugMessage("COM_CoraConsumesAllTheBooks_ProcessBook", "OnEnd", "TOPIC (Stage " + StageIDToComplete + "): Removed book " + BookCoraWants + " from player inventory and added one item.", 0, Venpi_DebugEnabled.GetValueInt())
   self.GetOwningQuest().SetStage(StageIDToComplete)
 EndEvent
 
