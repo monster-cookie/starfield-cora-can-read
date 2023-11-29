@@ -31,11 +31,11 @@ EndEvent
 Event OnRead()
   VPI_Debug.DebugMessage("Book_HitchhikersGuideToUnityAndTheMultiverse_Script", "OnRead", "Event OnRead Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
   If (CoraAvailableForQuests.IsTrue(None, None))
-    VPI_Debug.DebugMessage("Book_HitchhikersGuideToUnityAndTheMultiverse_Script", "OnRead", "Cora Coe is known and accessible so the quest line can be started.", 0, Venpi_DebugEnabled.GetValueInt())
     If (COM_CoraCoe_CoraWantsBooks.IsCompleted() == False)
+      VPI_Debug.DebugMessage("Book_HitchhikersGuideToUnityAndTheMultiverse_Script", "OnRead", "Cora Coe is known and accessible so the quest line can be started.", 0, Venpi_DebugEnabled.GetValueInt())
       COM_CoraCoe_CoraWantsBooks.Start()
     EndIf
-Else
+  Else
     VPI_Debug.DebugMessage("Book_HitchhikersGuideToUnityAndTheMultiverse_Script", "OnRead", "Cora Coe is not known so displaying failed message " + Failed_DontKnowSamAndCoraYet + ".", 0, Venpi_DebugEnabled.GetValueInt())
     VPI_Messaging.DisplayMessage(Failed_DontKnowSamAndCoraYet)
   EndIf

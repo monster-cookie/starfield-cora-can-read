@@ -1,5 +1,13 @@
 # V1.0 Permutations
 
+## V1.0.6
+* HOTFIX: Remove unneeded temporary master. 
+
+## V1.0.5
+* Injecting the new book to LL_Loot_Book_Common_Large [LVLI:001D211F], LL_Loot_Book_Common_Any [LVLI:0004B96E], and LL_Loot_Book_Common_BookStore [LVLI:0015078C]
+* Full contents of "Hitchhiker's Guide to Unity and the Multiverse" are there now. Thank you nexstephen.
+* Cora will now take "Hitchhiker's Guide to Unity and the Multiverse" and "A Brief History of Time" with special rewards
+
 ## V1.0.4
 * There is a new common drop book named "Hitchhiker's Guide to Unity and the Multiverse" that when read will trigger the Cora Wants Books Quest and chain. If you don't know Cora and Sam you will get a notification to complete Constellation's mission. If you don't want to wait to find it you can use "player.additem ##00086C 1" where is your mod index for Cora Wants All The Books. I'm looking and how bet to make it a fake legendary/unique item. 
 
