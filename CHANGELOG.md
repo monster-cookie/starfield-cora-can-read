@@ -1,5 +1,8 @@
 # V1.0 Permutations
 
+## V1.0.4
+* There is a new common drop book named "Hitchhiker's Guide to Unity and the Multiverse" that when read will trigger the Cora Wants Books Quest and chain. If you don't know Cora and Sam you will get a notification to complete Constellation's mission. If you don't want to wait to find it you can use "player.additem ##00086C 1" where is your mod index for Cora Wants All The Books. I'm looking and how bet to make it a fake legendary/unique item. 
+
 ## V1.0.3
 * Split some more of the responses there were supposed to be random in to separate responses in a dialog group
 * There is a new random skit that will spawn when cora, you, and Sam are together that will trigger the "Cora want books" quest. This is sort of a sucky way cause without voice acting nothing plays for skits. I'm going to see if I can use one of the other quest tree will work so you have mostly voice acting to tell you what is going on. I'm also going to add a new random drop book that when read will start the quest. 
