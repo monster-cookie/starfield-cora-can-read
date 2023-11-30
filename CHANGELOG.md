@@ -1,5 +1,8 @@
 # V1.0 Permutations
 
+## V1.0.7
+* Updated for Books Revamped 1.0.8
+
 ## V1.0.6
 * HOTFIX: Remove unneeded temporary master. 
 
