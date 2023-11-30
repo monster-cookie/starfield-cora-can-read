@@ -1,5 +1,10 @@
 # V1.0 Permutations
 
+## V1.0.8
+* Nexstephen and I coordinated this morning and restructured things for better compatibility with Books Revamped. 
+* Current "Hitchhiker's Guide to Unity and the Multiverse" is renamed to 'Tattered copy of "Hitchhiker's Guide to Unity and the Multiverse"' and cora no longer takes it and you can only vendor it. 
+* Now using the copy of the book from Books Revamped and Books Revamps control the loot rules for the book but we are keeping it common as its the best working quest trigger for Cora Wants Books. Post CK2 and we can do normal quest triggers again it will probably move to rare. 
+
 ## V1.0.7
 * Updated for Books Revamped 1.0.8
 

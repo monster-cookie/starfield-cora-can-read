@@ -5,7 +5,6 @@ ScriptName Book_HitchhikersGuideToUnityAndTheMultiverse_Script Extends ObjectRef
 ;;; Global Variables
 ;;;
 GlobalVariable Property Venpi_DebugEnabled Auto Const Mandatory
-GlobalVariable Property HitchhikersGuideToUnityAndTheMultiverse_BookRead Auto Const Mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
