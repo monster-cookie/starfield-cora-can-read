@@ -1,5 +1,13 @@
 # V1.0 Permutations
 
+## V1.0.9
+* All book turn in responses now use the correct formatting for random responses. This will allow me to start generating more ChatGPT versions as it tends to give response chains instead of a single sentence. 
+* Compatibility with Books Revamped 1.1.0
+* Initial quest "Cora wants books" revamped fixing the whole Cora wants to say my lines bug. 
+* The quest engine has way too many very nasty rabbit holes filled with armies of starving trolls at the end.
+* Newly added books and ChatGPT responses: "A Technological Reckoning", "Earth's Silent Exodus", "Paradox", "The Gravitational Leap", and "Red Rover, Come Over".
+* Structurally (aside from BGS patches breaking something) this mod is now stable. I'll just be adding new books as they become available, or people make suggestions for ones they think Cora would read.
+
 ## V1.0.8
 * Nexstephen and I coordinated this morning and restructured things for better compatibility with Books Revamped. 
 * Current "Hitchhiker's Guide to Unity and the Multiverse" is renamed to 'Tattered copy of "Hitchhiker's Guide to Unity and the Multiverse"' and cora no longer takes it and you can only vendor it. 
