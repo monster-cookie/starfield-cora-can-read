@@ -1,5 +1,11 @@
 # V1.0 Permutations
 
+## V1.0.10
+* Fixed a bunch of missing dialog group refs in the responses
+* Trying a new method that more matches what BGS did for repeatable quests
+* I've retested all the books and she happily takes them again
+* Structurally (aside from BGS patches breaking something) this mod is now stable. I'll just be adding new books as they become available, or people make suggestions for ones they think Cora would read. I REALLY REALLY MEAN IT THIS TIME. :) 
+
 ## V1.0.9
 * All book turn in responses now use the correct formatting for random responses. This will allow me to start generating more ChatGPT versions as it tends to give response chains instead of a single sentence. 
 * Compatibility with Books Revamped 1.1.0
