@@ -1,9 +1,10 @@
 # V1.0 Permutations
 
 ## V1.0.11
-* New repeatable stages system lets me do away while the messy book per stage concept the Sinclair Books quest used and I copied.
+* New repeatable stages system lets me do away while the messy book per stage concept the Sinclair Books quest used, and I copied.
 * Added a new global variable that tracks how many books you have given her. Eventually at 100 and 1000 books you will get a special reward of some sort. Need opinions please.
-* Added 2 new objectives that will pop up when you have one of the books she wants in you inventory.
+* Implemented player dialog change suggested by JoeCoolinsc. Well also let ChatGPT chew on it and went with the best response. Long term I want to try and get use some random choices we can use. Never mind the ChatGPT version was too wordy lol "While navigating the cosmos, I stumbled upon these literary wonders. Feel free to probe the galaxies of these books, and if any constellation of stories captures your imagination, we'll dive into the cosmic chapters together."
+* I can now use random greetings for what the player says to Cora to start things off. So let me know if you want something added.
 
 ## V1.0.10
 * Fixed a bunch of missing dialog group refs in the responses
