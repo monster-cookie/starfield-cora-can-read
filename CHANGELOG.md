@@ -1,5 +1,10 @@
 # V1.0 Permutations
 
+## V1.0.11
+* New repeatable stages system lets me do away while the messy book per stage concept the Sinclair Books quest used and I copied.
+* Added a new global variable that tracks how many books you have given her. Eventually at 100 and 1000 books you will get a special reward of some sort. Need opinions please.
+* Added 2 new objectives that will pop up when you have one of the books she wants in you inventory.
+
 ## V1.0.10
 * Fixed a bunch of missing dialog group refs in the responses
 * Trying a new method that more matches what BGS did for repeatable quests
