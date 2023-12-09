@@ -1,0 +1,12 @@
+FormKey: 000869:CoraCanRead.esm
+EditorID: ''
+Flags: {}
+Responses:
+- WEMFile: 2211796
+  Text:
+    TargetLanguage: English
+    Value: Sweetheart, I want you to understand that your book allowance is meant for indulging in the magic of literature, not to trouble the captain with finding you books.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

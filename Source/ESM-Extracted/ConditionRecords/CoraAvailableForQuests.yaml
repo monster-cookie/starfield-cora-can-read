@@ -1,0 +1,23 @@
+FormKey: 00085D:CoraCanRead.esm
+EditorID: CoraAvailableForQuests
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: Reference
+    Reference: 29D488:Starfield.esm
+    FirstParameter: 023C01:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    RunOnType: Reference
+    Reference: 29D488:Starfield.esm
+    FirstParameter: 014312:Starfield.esm
+  ComparisonValue: 1

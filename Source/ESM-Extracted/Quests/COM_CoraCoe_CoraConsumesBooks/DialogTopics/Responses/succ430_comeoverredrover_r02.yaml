@@ -1,0 +1,59 @@
+FormKey: 0008A7:CoraCanRead.esm
+EditorID: succ430_comeoverredrover_r02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_CoraConsumesAllTheBooks_ProcessBook
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookCoraWants
+      Object: 07FA37:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_COMPANION_CoraCoe_Gift
+      Object: 000801:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: BookTitle
+      Data: PS_Book_RedRover_m
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BooksGivenToCora
+      Object: 0008B3:CoraCanRead.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: ''
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008A5:CoraCanRead.esm
+Responses:
+- Emotion: 0FA847:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: You really think I'll love this sci-fi book? Robots on Mars sound like the coolest thing ever! Thanks a bunch!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    FirstParameter: 000828:CoraCanRead.esm
+    SecondParameter: 210
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 07FA37:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

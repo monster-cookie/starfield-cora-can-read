@@ -1,0 +1,15 @@
+FormKey: 000814:CoraCanRead.esm
+EditorID: fail_r02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000816:CoraCanRead.esm
+Responses:
+- Emotion: 118A4D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Let me see... I'm afraid there's nothing you have that interests me.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

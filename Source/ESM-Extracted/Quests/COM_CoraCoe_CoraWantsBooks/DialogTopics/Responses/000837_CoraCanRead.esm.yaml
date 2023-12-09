@@ -1,0 +1,11 @@
+FormKey: 000837:CoraCanRead.esm
+Flags: {}
+Responses:
+- Emotion: 029A41:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: You better make it worth my while.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

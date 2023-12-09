@@ -1,0 +1,15 @@
+FormKey: 0008B6:CoraCanRead.esm
+EditorID: player_greetopts_g2
+Flags:
+  Flags:
+  - Random
+  - 0x1000
+DialogGroup: 0008B4:CoraCanRead.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: On my journeys to different planets, I uncovered these amazing stories. If any of them align with your interests, let me know and you can have them.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

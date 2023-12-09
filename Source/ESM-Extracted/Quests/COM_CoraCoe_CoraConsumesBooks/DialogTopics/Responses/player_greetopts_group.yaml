@@ -1,0 +1,12 @@
+FormKey: 0008B4:CoraCanRead.esm
+MajorRecordFlagsRaw: 64
+EditorID: player_greetopts_group
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+  - ForceAllChildrenRandom
+SubtitlePriority: Low
+MajorFlags:
+- InfoGroup

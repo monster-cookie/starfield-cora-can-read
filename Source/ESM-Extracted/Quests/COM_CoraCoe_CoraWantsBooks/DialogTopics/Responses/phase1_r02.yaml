@@ -1,0 +1,15 @@
+FormKey: 0008AA:CoraCanRead.esm
+EditorID: phase1_r02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008A9:CoraCanRead.esm
+Responses:
+- Emotion: 112004:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: You’re the best friend ever! Can you please find me some books during your travels? I’ve been saving up my allowance, but it’s not enough to get the books I want. I’ll pay you back, I promise.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

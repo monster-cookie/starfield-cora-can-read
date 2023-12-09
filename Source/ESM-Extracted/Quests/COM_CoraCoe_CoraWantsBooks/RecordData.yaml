@@ -1,0 +1,78 @@
+FormKey: 000828:CoraCanRead.esm
+EditorID: COM_CoraCoe_CoraWantsBooks
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_CoraWantsAllTheBooks
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+  Script:
+    Name: COM_CoraWantsAllTheBooks_Fragments
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CoraCoe_CoraConsumesBooks
+      Object: 000829:CoraCanRead.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: COM_CoraWantsAllTheBooks_Fragments
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: COM_CoraWantsAllTheBooks_Fragments
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: COM_CoraWantsAllTheBooks_Fragments
+    FragmentName: Fragment_Stage_0100_Item_00
+Name:
+  TargetLanguage: English
+  Value: Cora Wants All The Books
+Data:
+  Flags:
+  - 0x10000
+  Priority: 50
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+UnusedConditions: []
+Stages:
+- LogEntries:
+  - Flags: []
+    Note: Quest Setup
+- Index: 1
+  Flags:
+  - RunOnStart
+  LogEntries:
+  - Flags: []
+    Note: Quest Running
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Note: Knows about Cora's reading needs
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+- Index: 9000
+  LogEntries:
+  - Flags: []
+    Note: Quest Complete
+Objectives:
+- Index: 100
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Cora about what she needs
+  Targets:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetQuestRunningConditionData
+      ComparisonValue: 1
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: CoraCoe
+  Flags: []
+  ALFG: 0
+  UniqueActor: 00D653:Starfield.esm

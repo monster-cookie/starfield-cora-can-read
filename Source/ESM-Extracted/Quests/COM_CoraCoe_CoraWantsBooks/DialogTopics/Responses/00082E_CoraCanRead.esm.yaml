@@ -1,0 +1,11 @@
+FormKey: 00082E:CoraCanRead.esm
+Flags: {}
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'Cora, you look like you need something? '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

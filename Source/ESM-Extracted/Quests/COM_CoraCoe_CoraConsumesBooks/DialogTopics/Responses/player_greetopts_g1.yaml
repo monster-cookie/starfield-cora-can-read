@@ -1,0 +1,15 @@
+FormKey: 0008B5:CoraCanRead.esm
+EditorID: player_greetopts_g1
+Flags:
+  Flags:
+  - Random
+  - 0x1000
+DialogGroup: 0008B4:CoraCanRead.esm
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Throughout my interplanetary adventures, I unearthed these captivating books. If any catch your cosmic curiosity, just give me the signal, and I'll pass along my treasures.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

@@ -1,0 +1,110 @@
+FormKey: 00082A:CoraCanRead.esm
+EditorID: COM_CoraCoe_CoraWantsAllTheBooks_QuestOffered
+Flags:
+- ShowAllText
+- Interruptable
+- DisableDialogueCamera
+- 0x2000
+Phases:
+- Name: Player Initiates
+  EditorWidth: 500
+- Name: Cora responds
+  EditorWidth: 500
+- Name: Player Dialog
+  EditorWidth: 500
+- Name: Cora begs for player to find her new books. Quests dialog sucks its forcing NPC response here
+  EditorWidth: 500
+- Name: Player accepts and completes quest
+  EditorWidth: 500
+  PhaseSetParentQuestStage:
+    OnBegin: -1
+    OnEnd: 100
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  SceneNotes: Player Queries Cora to Start Quest
+  AliasID: -2
+  Index: 1
+  Flags: []
+  Topic: 00082D:CoraCanRead.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  SceneNotes: Cora responds to player
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 00082F:CoraCanRead.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  SceneNotes: Branching dialog
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 000831:CoraCanRead.esm
+    NpcResponse: 000834:CoraCanRead.esm
+  - PlayerChoice: 000836:CoraCanRead.esm
+    NpcResponse: 000838:CoraCanRead.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  SceneNotes: Cora has to respond here for some reason
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 0008AB:CoraCanRead.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  SceneNotes: Player accepts quest and cora thanks him
+  AliasID: 0
+  Index: 5
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 00083A:CoraCanRead.esm
+    NpcResponse: 0008AD:CoraCanRead.esm
+Quest: 000828:CoraCanRead.esm
+LastActionIndex: 5
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 00D653:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    SecondParameter: 100
+BOLV: '[]'
+Index: 0
+SCPI: 0x0A00

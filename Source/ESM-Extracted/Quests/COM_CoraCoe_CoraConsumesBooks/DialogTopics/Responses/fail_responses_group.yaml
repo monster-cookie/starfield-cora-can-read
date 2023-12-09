@@ -1,0 +1,12 @@
+FormKey: 000816:CoraCanRead.esm
+MajorRecordFlagsRaw: 64
+EditorID: fail_responses_group
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+  - ForceAllChildrenRandom
+SubtitlePriority: Low
+MajorFlags:
+- InfoGroup

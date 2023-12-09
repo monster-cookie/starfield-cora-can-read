@@ -1,0 +1,104 @@
+FormKey: 000861:CoraCanRead.esm
+EditorID: Scene_RC_CaptainGetMeBooks
+Flags:
+- BeginOnQuestStart
+- StopOnQuestEnd
+- RepeatConditionsWhileTrue
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialoguePause
+  - 0x100
+- ID: 1
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - DialoguePause
+  - 0x100
+Actions:
+- MutagenObjectType: PackageSceneAction
+  Name: ''
+  SceneNotes: Sam moves to cora
+  AliasID: 1
+  Index: 1
+  Flags: []
+  Packages:
+  - 0153B6:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  SceneNotes: "Sam to cora: Don't pester captain"
+  AliasID: 1
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 000862:CoraCanRead.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  SceneNotes: 'Cora to Sam: Asking for books is not pestering'
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 000864:CoraCanRead.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  SceneNotes: 'Sam to Cora: Sarcastic Of Course'
+  AliasID: 1
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 000865:CoraCanRead.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  SceneNotes: 'Sam to Cora: He gave her an allowance for that. '
+  AliasID: 1
+  Index: 5
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  Topic: 000868:CoraCanRead.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  SceneNotes: 'Cora to Sam: I still need books'
+  AliasID: 0
+  Index: 6
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  Topic: 00086A:CoraCanRead.esm
+  LoopingMax: 10
+  LoopingMin: 1
+Quest: 000860:CoraCanRead.esm
+LastActionIndex: 6
+VNAM: 0x0300000003000000030000000300000003000000
+BOLV: '[]'
+Index: 0

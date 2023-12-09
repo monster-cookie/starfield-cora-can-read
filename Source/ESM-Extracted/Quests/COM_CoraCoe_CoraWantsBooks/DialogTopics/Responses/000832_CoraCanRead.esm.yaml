@@ -1,0 +1,11 @@
+FormKey: 000832:CoraCanRead.esm
+Flags: {}
+Responses:
+- Emotion: 154F0E:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'Why do you love books so much? '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

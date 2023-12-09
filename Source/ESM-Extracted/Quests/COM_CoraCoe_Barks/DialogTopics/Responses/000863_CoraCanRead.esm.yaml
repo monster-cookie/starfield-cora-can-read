@@ -1,0 +1,10 @@
+FormKey: 000863:CoraCanRead.esm
+Flags: {}
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: Now you're not pestering the captain again, right, Cora?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

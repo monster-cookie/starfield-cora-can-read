@@ -1,0 +1,24 @@
+FormKey: 00086B:CoraCanRead.esm
+VirtualMachineAdapter:
+  Scripts:
+  - Name: COM_CoraCoe_Barks_QuestTrigger
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CoraCoe_CoraWantsBooks
+      Object: 000828:CoraCanRead.esm
+  ScriptFragments:
+    MutagenObjectType: ScriptFragments
+    Script:
+      Name: ''
+Flags: {}
+Responses:
+- Text:
+    TargetLanguage: English
+    Value: I still need books though and my allowence is not enough.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

@@ -1,0 +1,29 @@
+FormKey: 000895:CoraCanRead.esm
+MajorRecordFlagsRaw: 64
+EditorID: succ390_atechnologicalreckoning_group
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+  - ForceAllChildrenRandom
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    FirstParameter: 000828:CoraCanRead.esm
+    SecondParameter: 210
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 000804:BooksRevamped.esm
+  ComparisonValue: 1
+SubtitlePriority: Low
+MajorFlags:
+- InfoGroup

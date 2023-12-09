@@ -1,0 +1,11 @@
+FormKey: 000835:CoraCanRead.esm
+Flags: {}
+Responses:
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I can't get enough of engineering and adventure stories. They inspire me to think creatively and dream big. Plus, who wouldn't want to build epic things and go on daring quests?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

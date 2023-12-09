@@ -1,0 +1,52 @@
+FormKey: 00084F:BooksRevamped.esm
+EditorID: Book_HitchhikersGuideToUnityAndTheMultiverse
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Book_HitchhikersGuideToUnityAndTheMultiverse_Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CoraCoe_CoraWantsBooks
+      Object: 000828:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoraAvailableForQuests
+      Object: 00085D:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Failed_DontKnowSamAndCoraYet
+      Object: 00086F:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+ObjectBounds:
+  First: -0.030008545, -0.09862671, -6.7546964E-05
+  Second: 0.031759, 0.10083618, 0.26726645
+ODTY: 0
+Transforms:
+  Inventory: 03D203:Starfield.esm
+XALG: 0x0800000000000000
+Name:
+  TargetLanguage: English
+  Value: Hitchhiker's Guide to Unity and the Multiverse
+Model:
+  File: SetDressing\Books\BookLarge01.nif
+  MaterialSwaps:
+  - 33D9F7:Starfield.esm
+  - 33D9FF:Starfield.esm
+  FLLD: 0x01000000
+  XFLG: 0x02
+Description:
+  TargetLanguage: English
+  Value: " Venpi Nighthawk was not your ordinary explorer. He had a knack for finding the most exotic and dangerous worlds in the multiverse, and he loved to document his adventures in his holographic journal. He had seen wonders and horrors beyond imagination, and he was always eager for more.\r\n\r\nOne day, he received a mysterious message from an unknown sender. It was a map of a region of space he had never visited before, with a single word: “Come”. Venpi was intrigued. He decided to follow the map and see what awaited him.\r\n\r\nHe boarded his starship, the Nightfall, and set the coordinates for the destination. He activated his quantum drive, a device that allowed him to travel between parallel universes, and prepared for the jump. He hoped it would be worth it.\r\n\r\nHe emerged from the quantum tunnel into a dazzling sight. He was in a solar system with a dozen planets, each one more colorful and diverse than the last. He scanned the planets and found that they were all habitable, with rich flora and fauna. He also detected signs of intelligent life on some of them. He was amazed. He had never seen such a diverse and vibrant system before.\r\n\r\nHe checked the map and saw that it pointed to the fourth planet from the sun. It was a blue-green world with large oceans and continents. He zoomed in and saw a large city on the coast, with towering skyscrapers and flying vehicles. He decided to land there and see who had sent him the message.\r\n\r\nHe approached the planet and entered its atmosphere. He was greeted by a swarm of drones that surrounded his ship and scanned it. He heard a voice in his earpiece, speaking in a language he did not recognize. He activated his universal translator and listened.\r\n\r\n“Welcome, Venpi Nighthawk. We have been expecting you. Please follow us to the landing pad. We have much to discuss.”\r\n\r\nVenpi was stunned. How did they know his name? Who were they? What did they want? He had a feeling that this was the beginning of a new adventure. He followed the drones and hoped for the best. "
+Keywords:
+- 11A47A:Starfield.esm
+- 1FC86C:Starfield.esm
+- 000847:BooksRevamped.esm
+- 0008B1:CoraCanRead.esm
+Value: 2000
+Weight: 1
+Flags:
+- 0x20
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+CNAM:
+  TargetLanguage: English
+  Value: ''

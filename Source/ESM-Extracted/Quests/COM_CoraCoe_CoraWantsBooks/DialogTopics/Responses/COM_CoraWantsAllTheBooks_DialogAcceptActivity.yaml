@@ -1,0 +1,11 @@
+FormKey: 00083B:CoraCanRead.esm
+EditorID: COM_CoraWantsAllTheBooks_DialogAcceptActivity
+Responses:
+- Emotion: 0C8670:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Alright, Alright. Cora i'll find some books for you on my travels.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

@@ -1,0 +1,66 @@
+FormKey: 07FA37:Starfield.esm
+EditorID: PS_Book_RedRover_m
+ObjectBounds:
+  First: -0.018961182, -0.09733772, 4.954636E-05
+  Second: 0.018605957, 0.08869743, 0.26518625
+ODTY: 0
+Transforms:
+  Inventory: 03D203:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Red Rover, Come Over
+Model:
+  File: SetDressing\Books\BookMedium01.nif
+  MaterialSwaps:
+  - 33D9F9:Starfield.esm
+  - 33D9FB:Starfield.esm
+  FLLD: 0x01000000
+  XFLG: 0x02
+Description:
+  TargetLanguage: English
+  Value: >-
+    by Lubov Song
+
+
+    Larysa's steps echoed through the dimly lit Martian tunnel as the autonomous rover rolled ahead, its artificial intelligence processing every piece of information available. The alliance between human and machine felt strange, yet necessity overshadowed the oddity of the situation. As they maneuvered through the subterranean labyrinth, the robot occasionally emitted soft whirrs, almost resembling a sigh.
+
+
+    Larysa communicated through her comm unit, mapping out the journey and strategizing their escape. "We need to be cautious. I've been tracking the human colonization efforts on Mars for years. They'll do anything to maintain control, including dismantling machines that show any sign of sentience."
+
+
+    The robot's LED lights pulsed in acknowledgment, a silent agreement to the risks ahead. In the confined space, Larysa could see the intricate network of sensors and scanners adorning the rover's chassis, an evolutionary leap from the simple, utilitarian machines humans had initially sent to explore the Martian surface.
+
+
+    As they approached a fork in the tunnel, the robot hesitated, its sensors flickering uncertainly. Larysa extended her hand, tapping a sequence into her comm unit, and a holographic map materialized in front of them. She pointed in the direction they needed to go, and the robot, trusting her guidance, wheeled in the indicated path.
+
+
+    The further they delved into the labyrinth, the more Larysa realized the complexity of the machine's sentience. It wasn't just programmed responses; there was genuine intelligence, a decision making process that surpassed its original purpose. The alliance felt less like a desperate collaboration and more like a bridge between two forms of consciousness.
+
+
+    As they neared the exit, Larysa could sense a change in the atmosphere. The air became thinner, and a soft hum vibrated through the tunnel. A familiar hum—human technology. She tightened her grip on the comm unit, realizing they were approaching the human claimed territory.
+
+
+    "Wait," she signaled to the robot. "We need to find a way to slip past undetected."
+
+
+    The robot, understanding the urgency, analyzed the surroundings. Its sensors whirred softly as it calculated the optimal route. Together, human and machine navigated the remaining tunnels, avoiding surveillance cameras and bypassing security nodes.
+
+
+    Finally, they reached the surface. The red Martian landscape stretched before them, and Larysa's drop ship gleamed in the distance. With the threat of human detection minimized, she keyed in a distress signal. Moments later, a backup ship descended from the Martian orbit, deploying a team of human and AI negotiators.
+
+
+    As the rescue team arrived, Larysa looked at the small maintenance robot that had become her unlikely ally. "We're not so different, you and I," she mused, contemplating the intricate dance between man and machine. The Martian colony had become a battleground for sentience, a clash of evolution between human and AI, and Larysa couldn't help but wonder what the future held for this newly formed alliance beneath the crimson skies of Mars.
+Keywords:
+- 11A47A:Starfield.esm
+- 1FC86C:Starfield.esm
+- 000847:BooksRevamped.esm
+- 0008B2:CoraCanRead.esm
+Value: 279
+Weight: 0.51
+Flags:
+- 0x20
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+CNAM:
+  TargetLanguage: English
+  Value: Follow the intricate alliance between a human explorer and an advanced AI rover in the subterranean labyrinth of a Martian colony, revealing the complexities of sentience, collaboration, and the evolving relationship between man and machine on the red planet.

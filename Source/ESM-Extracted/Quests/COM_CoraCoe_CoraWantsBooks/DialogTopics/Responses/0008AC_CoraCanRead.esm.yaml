@@ -1,0 +1,11 @@
+FormKey: 0008AC:CoraCanRead.esm
+Flags: {}
+Responses:
+- Emotion: 112004:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Do you mind assisting me in expanding my literary horizons? I've read through all the books on board, and I'm eager for a new literary voyage.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

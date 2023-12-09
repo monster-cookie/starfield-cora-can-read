@@ -1,0 +1,32 @@
+FormKey: 000839:CoraCanRead.esm
+Flags: {}
+Responses:
+- Emotion: 111073:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: ' I will, I assure you!'
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FA851:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I have some great treasure maps I found hacking around on the net.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 198BC6:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I also have a selection of goods I have made on the industrial workbench.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+- Emotion: 0FDC77:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Finally I also have stuff I have stolen from my Dad's super stealthy hidden secret cache. Please don't tell him I found it in the foot of his Monster Suit.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

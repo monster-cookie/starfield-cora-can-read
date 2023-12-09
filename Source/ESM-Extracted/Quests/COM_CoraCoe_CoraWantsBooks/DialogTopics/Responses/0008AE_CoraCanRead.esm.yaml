@@ -1,0 +1,11 @@
+FormKey: 0008AE:CoraCanRead.esm
+Flags: {}
+Responses:
+- Emotion: 0FA84D:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Captain, you're not just exploring planets, you're also on a mission to find the coolest books for me! Thanks a million for being my intergalactic librarian!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

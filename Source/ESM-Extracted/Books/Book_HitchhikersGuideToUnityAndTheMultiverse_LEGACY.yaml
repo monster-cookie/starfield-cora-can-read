@@ -1,0 +1,34 @@
+FormKey: 00086C:CoraCanRead.esm
+EditorID: Book_HitchhikersGuideToUnityAndTheMultiverse_LEGACY
+ObjectBounds:
+  First: -0.030008545, -0.09862671, -6.7546964E-05
+  Second: 0.031759035, 0.10083618, 0.26726645
+ODTY: 0
+Transforms:
+  Inventory: 03D203:Starfield.esm
+XALG: 0x0800000000000000
+Name:
+  TargetLanguage: English
+  Value: Tattered Hitchhiker's Guide to Unity and the Multiverse
+Model:
+  File: SetDressing\Books\BookLarge01.nif
+  MaterialSwaps:
+  - 112265:Starfield.esm
+  FLLD: 0x01000000
+  XFLG: 0x02
+Description:
+  TargetLanguage: English
+  Value: "This is a tattered and unreadable copy of Hitchhiker's Guide to Unity and the Multiverse. That would not be useful to anyone. "
+Keywords:
+- 11A47A:Starfield.esm
+- 1FC86C:Starfield.esm
+- 000847:BooksRevamped.esm
+Value: 2000
+Weight: 1
+Flags:
+- 0x20
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+CNAM:
+  TargetLanguage: English
+  Value: ''

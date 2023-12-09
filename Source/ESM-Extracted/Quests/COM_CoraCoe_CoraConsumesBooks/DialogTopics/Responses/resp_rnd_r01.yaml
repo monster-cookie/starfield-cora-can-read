@@ -1,0 +1,15 @@
+FormKey: 00084D:CoraCanRead.esm
+EditorID: resp_rnd_r01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008AF:CoraCanRead.esm
+Responses:
+- Emotion: 0FA84F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: "I've looked though your books and there are none let that I'm interested in. "
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

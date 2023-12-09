@@ -1,0 +1,33 @@
+FormKey: 000801:CoraCanRead.esm
+EditorID: COM_COMPANION_CoraCoe_Gifts
+ODTY: 0
+MaxCount: 1
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+Entries:
+- Level: 1
+  Reference: 00D582:Starfield.esm
+  Count: 2
+- Level: 1
+  Reference: 180EE0:Starfield.esm
+  Count: 1
+- Level: 25
+  Reference: 000802:VenpiCore.esm
+  Count: 1
+  ChanceNone: 0.23529411764705882
+- Level: 50
+  Reference: 0B90A7:Starfield.esm
+  Count: 1
+  ChanceNone: 0.11764705882352941
+- Level: 50
+  Reference: 104605:Starfield.esm
+  Count: 1
+  ChanceNone: 0.19607843137254902
+- Level: 50
+  Reference: 104ACE:Starfield.esm
+  Count: 1
+  ChanceNone: 0.19607843137254902
+- Level: 50
+  Reference: 104AD2:Starfield.esm
+  Count: 1
+  ChanceNone: 0.19607843137254902

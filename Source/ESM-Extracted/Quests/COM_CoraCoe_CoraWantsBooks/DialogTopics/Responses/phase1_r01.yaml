@@ -1,0 +1,15 @@
+FormKey: 000830:CoraCanRead.esm
+EditorID: phase1_r01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 0008A9:CoraCanRead.esm
+Responses:
+- Emotion: 0C8674:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I tried asking my dad for a bit more allowance, but he's acting like I'm asking for a million dollars just to buy some books.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

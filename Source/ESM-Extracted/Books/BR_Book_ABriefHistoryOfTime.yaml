@@ -1,0 +1,81 @@
+FormKey: 00084B:BooksRevamped.esm
+EditorID: BR_Book_ABriefHistoryOfTime
+ObjectBounds:
+  First: -0.030008545, -0.09862671, -6.7546964E-05
+  Second: 0.031759035, 0.10083618, 0.26726645
+ODTY: 0
+Transforms:
+  Inventory: 03D203:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: A Brief History of Time
+Model:
+  File: SetDressing\Books\BookLarge01.nif
+  MaterialSwaps:
+  - 112265:Starfield.esm
+  FLLD: 0x01000000
+  XFLG: 0x02
+Description:
+  TargetLanguage: English
+  Value: >+
+    By Stephen Hawking
+
+
+    In the vast expanse of the cosmic fabric, where time and space interweave like threads in an ever-evolving tapestry, there exists a phenomenon so profound that it transcends the boundaries of human comprehension. It is the story of the universe itself, unfolding in a ballet of celestial bodies, governed by the laws of physics and shaped by the inexorable march of time.
+
+
+    At the dawn of existence, when the cosmos was a seething cauldron of primordial energy, particles danced in the symphony of the Big Bang. From this cosmic maelstrom emerged the first atoms, forging the foundation of matter that would give rise to galaxies, stars, and planets. The universe, like a cosmic phoenix, rose from the ashes of its explosive birth, stretching and expanding across the cosmic stage.
+
+
+    As time flowed, gravity orchestrated the cosmic ballet, sculpting colossal structures in the form of galaxies and clusters. Stars, those radiant beacons of stellar evolution, ignited in the cosmic crucible, fusing elements in their fiery cores and scattering them into the cosmic void. In this cosmic alchemy, heavy elements were forged, laying the groundwork for the birth of life.
+
+
+    On a nondescript planet orbiting an ordinary star, the chemistry of life unfolded. From the primordial soup emerged simple organisms, driven by the relentless imperative of survival. Evolution, the silent architect of biodiversity, shaped life through eons of adaptation and selection. The march of time witnessed the emergence of complex organisms, each a fleeting chapter in the grand narrative of life on Earth.
+
+
+    On the stage of Earth, a sentient species arose, endowed with the ability to contemplate its own existence. Armed with the intellect to unravel the mysteries of the cosmos, this species peered into the night sky and asked profound questions about the nature of reality. Observatories and telescopes became their tools of exploration, extending their gaze beyond the confines of their terrestrial abode.
+
+
+    Through the lens of these cosmic observers, distant galaxies and quasars revealed themselves, their light traveling eons to reach the instruments of human curiosity. The observations of astronomers painted a portrait of the universe, a vast and expanding canvas punctuated by cosmic phenomena and enigmatic black holes.
+
+
+    Soon a revelation emerged, that the fabric of the cosmos was not static but dynamic, stretching and warping in response to the gravitational dance of matter. Einstein's theory of general relativity became the guidebook for understanding the curvature of spacetime, revealing the cosmic choreography that governed the motion of celestial bodies.
+
+
+    The concept of the "Big Bang" became a cornerstone, explaining the origin and evolution of the universe. The cosmic microwave background, a faint echo of the primordial explosion, became a cosmic fingerprint, providing insights into the early moments of creation.
+
+
+    In the cosmic drama, black holes took center stage, captivating the imagination with their gravitational might. These cosmic abysses, where gravity becomes an unstoppable force, warped spacetime itself. From stellar remnants to supermassive behemoths at the hearts of galaxies, black holes became celestial mysteries, challenging the boundaries of our understanding.
+
+
+    As the smallest subatomic particles waltzed to the rhythms of quantum mechanics, a dance of probabilities and uncertainties that defied classical intuition. The quantum realm, a strange and ethereal landscape, challenged the very foundations of determinism, inviting physicists to navigate a sea of probability waves and explore the elusive nature of reality at the microscopic scale.
+
+
+    Galaxies and galactic superclusters emerged as colossal cosmic tapestries, woven by the gravitational threads that bind them together. The structure of the universe, from the cosmic web of filaments to the vast cosmic voids, revealed a vast and intricate architecture governed by the interplay of dark matter and dark energy, cosmic entities that eluded direct observation but left an indelible mark on the cosmic canvas.
+
+
+    The equations of physics, inscribed in the language of mathematics, became the key to deciphering the cosmic code. From the elegant simplicity of Newton's laws to the intricate dance of particles described by the Standard Model, the mathematical language of the universe resonated with a beauty that transcended cultural and linguistic boundaries.
+
+
+    As technology became the ally of human curiosity. Telescopes, particle accelerators, and space probes extended the reach of human senses, enabling the exploration of distant worlds, the study of exotic particles, and the unraveling of the cosmic mysteries that lingered at the edges of human understanding.
+
+
+    The story of space and time, a narrative woven by the hands of scientists and astronomers, unfolded as a testament to the human spirit of exploration and discovery. It beckoned humanity to gaze beyond the horizon of the known, to venture into the cosmic unknown, and to seek answers to questions that transcended the limits of earthly existence.
+
+
+    In the grand tapestry of the cosmos, the final chapters remain unwritten, waiting to be revealed by the inquisitive minds of future generations.
+
+Keywords:
+- 11A47A:Starfield.esm
+- 1FC86C:Starfield.esm
+- 000847:BooksRevamped.esm
+- 0008B1:CoraCanRead.esm
+Value: 1000
+Weight: 0.88
+Flags:
+- 0x20
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+CNAM:
+  TargetLanguage: English
+  Value: ''
