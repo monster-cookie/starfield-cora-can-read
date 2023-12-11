@@ -9,6 +9,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_CoraCoe_CoraWantsBooks
       Object: 000828:CoraCanRead.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: Venpi_ModName
+      Data: CoraWantsAllTheBooks
   ScriptFragments:
     MutagenObjectType: ScriptFragments
     Script:

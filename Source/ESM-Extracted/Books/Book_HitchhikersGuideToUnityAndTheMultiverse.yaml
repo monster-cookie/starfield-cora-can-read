@@ -16,6 +16,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: Venpi_DebugEnabled
       Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: Venpi_ModName
+      Data: CoraWantsAllTheBooks
 ObjectBounds:
   First: -0.030008545, -0.09862671, -6.7546964E-05
   Second: 0.031759, 0.10083618, 0.26726645

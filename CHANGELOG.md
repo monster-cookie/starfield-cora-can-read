@@ -1,5 +1,8 @@
 # V1.0 Permutations
 
+## V1.0.13
+* Now using user debug logs via Venpi Core v1.0.10
+
 ## V1.0.12
 * Fixed for Books Revamped 1.1.3
 
