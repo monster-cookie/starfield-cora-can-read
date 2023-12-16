@@ -1,5 +1,11 @@
 # V1.0 Permutations
 
+## V1.0.15
+* Have to use the BooksRevamped.esm for that specific book with Game.GetFormFromFile
+
+## V1.0.14
+* Used the debug global functions from Cora The Book Hunter to make getting the hitchhiker book easier. 
+
 ## V1.0.13
 * Now using user debug logs via Venpi Core v1.0.10
 

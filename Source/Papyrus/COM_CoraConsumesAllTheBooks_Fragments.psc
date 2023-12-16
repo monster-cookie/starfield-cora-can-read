@@ -17,7 +17,6 @@ String Property Venpi_ModName Auto Const Mandatory
 ;;; Variables
 ;;;
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
 ;;; Events

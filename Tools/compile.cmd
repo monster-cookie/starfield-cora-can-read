@@ -10,7 +10,6 @@ cd "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Tools"
 del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist\*.*"
 rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist"
-REM mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist\textures\setdressing\terminals\splashscreens\"
 
 @REM Clear Dist-BA2-Main DIR
 @echo "Clearing and scafolding the Dist-BA2-Main dir"
@@ -18,13 +17,6 @@ del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA
 rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Main"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Main"
 mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Main\Scripts\"
-
-@REM Clear Dist-BA2-Textures DIR
-@REM @echo "Clearing and scafolding the Dist-BA2-Textures dir"
-@REM del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Textures\*.*"
-@REM rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Textures"
-@REM mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Textures"
-@REM mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Textures\textures\setdressing\terminals\splashscreens\"
 
 @REM Compile and deploy Scripts to Dist-BA2-Main folder
 @echo "Compiling all script in Source/Papyrus to Dist-BA2-Main folder"
@@ -42,17 +34,7 @@ copy /y "D:\MO2Staging\Starfield\mods\CoraCanRead-Experimental\CoraCanRead.esm" 
 copy /y "D:\MO2Staging\Starfield\mods\CoraCanRead-Experimental\CoraCanRead.esm" "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist"
 
 @REM Use Spriggit to extract record from ESM
-"D:\Program Files\Spriggit\Spriggit.CLI.exe" serialize --InputPath "D:\MO2Staging\Starfield\mods\CoraCanRead-Experimental\CoraCanRead.esm" --OutputPath "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Source\ESM-Extracted" --GameRelease Starfield --PackageName Spriggit.Yaml
-
-@REM Create and copy the BA2 Textures Archive to Dist folder
-@REM @echo "Creating the BA2 Textures Archive"
-@REM "D:\Program Files\xEdit\BSArch64.exe" pack "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Textures" "CoraCanRead - Textures.ba2" -sf1dds -mt && (
-@REM   @echo "Textures Archive successfully assembled"
-@REM   (call )
-@REM ) || (
-@REM   @echo "ERROR:  Textures Archive failed to assemble <======================================="
-@REM   exit /b 1
-@REM )
+"D:\Program Files\Spriggit\Spriggit.CLI.exe" serialize --InputPath "D:\MO2Staging\Starfield\mods\CoraCanRead-Experimental\CoraCanRead.esm" --OutputPath "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Source\ESM-CoraCanRead-Extracted" --GameRelease Starfield --PackageName Spriggit.Yaml
 
 @REM Create and copy the BA2 Main Archive to Dist folder
 @echo "Creating the BA2 Main Archive"
@@ -66,5 +48,4 @@ copy /y "D:\MO2Staging\Starfield\mods\CoraCanRead-Experimental\CoraCanRead.esm" 
 
 @REM Copying the BA2 Archives to the Dist folder
 @echo "Copying the BA2 Archives to the Dist folder"
-@REM copy /y "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Textures\CoraCanRead - Textures.ba2" "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist"
 copy /y "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist-BA2-Main\CoraCanRead - Main.ba2" "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist"
