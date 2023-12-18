@@ -5,9 +5,10 @@ ScriptName COM_CoraConsumesAllTheBooks_ProcessBook Extends TopicInfo
 ;;; Global Variables
 ;;;
 GlobalVariable Property Venpi_DebugEnabled Auto Const Mandatory
-String Property Venpi_ModName Auto Const Mandatory
+String Property Venpi_ModName="CoraWantsAllTheBooks" Auto Const Mandatory
 
 GlobalVariable Property BooksGivenToCora Auto Const Mandatory
+GlobalVariable Property CCR_MultipleBooksOnly Auto Const Mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
@@ -33,6 +34,17 @@ EndEvent
 
 Event OnEnd(ObjectReference akSpeakerRef, Bool abHasBeenSaid)
   ; VPI_Debug.DebugMessage(Venpi_ModName, "COM_CoraConsumesAllTheBooks_ProcessBook", "OnEnd", "TOPIC (Book " + BookTitle + "): Event OnEnd Triggered.", 0, Venpi_DebugEnabled.GetValueInt())
+  Int itemCount = PlayerRef.GetItemCount(BookCoraWants as Form)
+  If (CCR_MultipleBooksOnly.GetValueInt() == 1 && itemCount <= 1)
+    ;; Abort the multiple copies feature is on
+    Return
+  EndIf
+
+  If (itemCount == 0)
+    ;; Shouldn't be possible
+    Return
+  EndIf
+
   PlayerRef.RemoveItem(BookCoraWants as Form, 1, False, None)
   Utility.Wait(0.5)
   PlayerRef.AddItem(COM_COMPANION_CoraCoe_Gift as Form, 1, False)

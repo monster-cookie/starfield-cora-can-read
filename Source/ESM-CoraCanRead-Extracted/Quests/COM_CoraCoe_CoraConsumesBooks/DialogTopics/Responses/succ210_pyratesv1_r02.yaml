@@ -22,6 +22,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: BooksGivenToCora
       Object: 0008B3:CoraCanRead.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CCR_MultipleBooksOnly
+      Object: 0008B7:CoraCanRead.esm
   ScriptFragments:
     MutagenObjectType: ScriptFragments
     Script:
@@ -40,19 +43,30 @@ Responses:
   AlternateLipText: ''
 Conditions:
 - MutagenObjectType: ConditionFloat
-  CompareOperator: GreaterThanOrEqualTo
-  Unknown1: 0x000000
-  Data:
-    MutagenObjectType: GetItemCountConditionData
-    RunOnType: Reference
-    Reference: 000014:Starfield.esm
-    FirstParameter: 13FE99:Starfield.esm
-  ComparisonValue: 1
-- MutagenObjectType: ConditionFloat
   Unknown1: 0x000000
   Data:
     MutagenObjectType: GetQuestCompletedConditionData
     FirstParameter: 000828:CoraCanRead.esm
     SecondParameter: 210
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008B9:CoraCanRead.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 0008B8:CoraCanRead.esm
   ComparisonValue: 1
 SubtitlePriority: Low

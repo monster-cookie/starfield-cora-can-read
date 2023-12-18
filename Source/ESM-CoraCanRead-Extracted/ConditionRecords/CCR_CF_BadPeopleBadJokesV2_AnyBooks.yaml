@@ -1,0 +1,15 @@
+FormKey: 0008C8:CoraCanRead.esm
+EditorID: CCR_CF_BadPeopleBadJokesV2_AnyBooks
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 0008B7:CoraCanRead.esm
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    FirstParameter: 13FEA5:Starfield.esm
+  ComparisonValue: 1

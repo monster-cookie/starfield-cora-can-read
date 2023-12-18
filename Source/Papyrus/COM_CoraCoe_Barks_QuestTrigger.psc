@@ -5,7 +5,7 @@ ScriptName COM_CoraCoe_Barks_QuestTrigger Extends TopicInfo
 ;;; Global Variables
 ;;;
 GlobalVariable Property Venpi_DebugEnabled Auto Const Mandatory
-String Property Venpi_ModName Auto Const Mandatory
+String Property Venpi_ModName="CoraWantsAllTheBooks" Auto Const Mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;

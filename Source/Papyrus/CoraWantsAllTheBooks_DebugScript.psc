@@ -10,3 +10,43 @@ Function Debug_GetBook_HitchhikersGuideToUnityAndTheMultiverse() Global
     PlayerRef.AddItem(questbook as Form, 1, true)
   EndIf
 EndFunction
+
+;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_CurrentBooksRead" 
+Function Debug_CurrentBooksRead() Global
+  GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x71000800, "VenpiCore.esm") as GlobalVariable
+  GlobalVariable CCR_MultipleBooksOnly = Game.GetFormFromFile(0x740008B7, "CoraCanRead.esm") as GlobalVariable
+
+  String message = "Current Feature Flag Settings (1-On, 0=Off)\n\n"
+  message += "Multiple Books Only = " + CCR_MultipleBooksOnly.GetValueInt() + "\n"
+  message += "Debug Mode  = " + Venpi_DebugEnabled.GetValueInt() + "\n"
+
+  Debug.MessageBox(message)
+EndFunction
+
+;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_ToggleDebugMode" 
+Function Debug_ToggleDebugMode() Global
+  GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x71000800, "VenpiCore.esm") as GlobalVariable
+  If (Venpi_DebugEnabled == None)
+    Debug.MessageBox("Failed to find Venpi_DebugEnabled global variable to toggle debug mode")
+  Else
+    If (Venpi_DebugEnabled.GetValueInt() == 0)
+      Venpi_DebugEnabled.SetValueInt(1)
+    Else
+      Venpi_DebugEnabled.SetValueInt(0)
+    EndIf
+  EndIf
+EndFunction
+
+;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_ToggleDebugMode" 
+Function Debug_ToggleMultipleBooksMode() Global
+  GlobalVariable CCR_MultipleBooksOnly = Game.GetFormFromFile(0x740008B7, "CoraCanRead.esm") as GlobalVariable
+  If (CCR_MultipleBooksOnly == None)
+    Debug.MessageBox("Failed to find Venpi_DebugEnabled global variable to toggle debug mode")
+  Else
+    If (CCR_MultipleBooksOnly.GetValueInt() == 0)
+      CCR_MultipleBooksOnly.SetValueInt(1)
+    Else
+      CCR_MultipleBooksOnly.SetValueInt(0)
+    EndIf
+  EndIf
+EndFunction

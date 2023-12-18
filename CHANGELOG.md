@@ -1,5 +1,10 @@
 # V1.0 Permutations
 
+## V1.0.16
+* New debug commands and help text viewable in the system help interface
+* New feature flag so cora will only take books you have multiple copies of
+* Using the quest trigger system form Cora The Book Hunter so no need to find the silly book quest anymore.
+
 ## V1.0.15
 * Have to use the BooksRevamped.esm for that specific book with Game.GetFormFromFile
 

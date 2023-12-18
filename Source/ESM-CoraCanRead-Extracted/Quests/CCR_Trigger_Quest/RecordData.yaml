@@ -1,0 +1,30 @@
+FormKey: 0008E7:CoraCanRead.esm
+EditorID: CCR_Trigger_Quest
+VirtualMachineAdapter:
+  Script:
+    Name: CCR_Trigger_Quest_Fragments
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QuestToTrigger
+      Object: 000828:CoraCanRead.esm
+  Fragments:
+  - ScriptName: ''
+    FragmentName: ''
+Data:
+  Unused: 0x000000
+Event: CLOC
+UnusedConditions: []
+Stages:
+- Index: 10
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases: []
