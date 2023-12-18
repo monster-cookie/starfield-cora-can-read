@@ -1,0 +1,55 @@
+[size=4][b][u]Overview[/u][/b][/size]
+Cora has finally convinced you to give her all the books she can read in exchange for gifts. 
+
+[size=3][b]Planned Features[/b][/size][size=4] [/size]
+[list]
+[*]With the new tracking variables give special rewards to the player as 100, 1000, and 5000 books turned in.
+[*]More text random responses for your books using ChatGPT.
+[*]More books she will take from Books Revamped and/or other sources.
+[*]Random Quest to go raid a dungeon and get a rare book for her (Phase 2 - Might need CK)
+[*]Make Starborn Cora a companion with this functionality for variant universes. 
+[*]After 5000 books turned in Cora grows up and becomes a follower/crew. 
+[/list]
+Special note this requires Books Revamp mod for the new books.
+
+[size=4][b][u]Usage[/u][/b][/size]
+
+You have to know Sam and Cora and have Sam set as active Crew or Companion. By know them you have to have asked at least one of their personal questions for some reason (Game engine rule not mine).
+
+The initial quest "Cora Wants Books" until creation kit arrives can only be triggered automatically via waiting for her and Sam to play a specific skit at the end you will get a prompt to talk to Cora. Unfortunately, without voice acting files the skit plays with no visual clue so you have no idea to stay by them and we can't make voice acting files currently. 
+
+So as an optional route there is a common drop book (until CK arrives then it will be rare) that will trigger the quest when read. The book's name is "Hitchhiker's Guide to Unity and the Multiverse" you can either wait and find as drop, buy it from a book vendor, or use the console command below to add it to your inventory. No matter how you acquire it once you read it, the initial quest will trigger, and you will get a marker directing you to Cora. 
+
+Console command is "player.additem ##00084F 1" without the quotes and replace ## with the mod index for Books Revamp as the book comes from that mod now. 
+
+I only tested the code with Sam set as a companion in a NGP session there is possible a problem if you don't have access to Sam. Also this mod won't work in almost all of the NGP variant images as Cora doesn't exist.
+
+[b][u]Installation [/u][/b]
+[size=3][b]Via Vortex/MO2[/b][/size]
+Install as normally would any mod mod. 
+
+[size=3][b]Installation Manually[/b][/size]
+Really please use a mod manage :) 
+
+Download the current zip file. Please everything in the Data folder in the zip to the same place under <Game Install Dir aka where starfield.exe is>\Data.  
+
+[size=3][b]Handling the plugins.txt file[/b][/size]
+You need to add CoraCanRead.esm, BooksRevamped.esm, and VenpiCore.esm to your plugins.txt file see below for help. Should be ordered like this in the file. 
+
+[code]
+*VenpiCore.esm
+*BooksRevamped.esm
+*CoraCanRead.esm
+[/code]
+
+These are instructions from the author of the mod:
+[img]https://i.imgur.com/MD5uU3j.png[/img]
+
+[size=4][b][u]Social Presence[/u][/b][/size]
+[list]
+[*]I can be found as Venpi hanging out in the xEdit and Starfield Nexus Mod's discord servers.
+[*]You can follow me on threads as [url=https://www.threads.net/@monstercookiebd]@monstercookiebd[/url]﻿
+[/list]
+
+[u][size=4]Source Code[/size][/u]
+The source code to this is on GitHub under the repository [url=https://github.com/monster-cookie/starfield-cora-can-read]starfield-cora-can-read[/url]
