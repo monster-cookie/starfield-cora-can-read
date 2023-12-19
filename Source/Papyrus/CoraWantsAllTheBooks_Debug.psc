@@ -1,7 +1,7 @@
-ScriptName CoraWantsAllTheBooks_DebugScript
+ScriptName CoraWantsAllTheBooks_Debug
 
-;; Call using: CGF "CoraWantsAllTheBooks_DebugScript.Debug_GetBook_HitchhikersGuideToUnityAndTheMultiverse" 
-Function Debug_GetBook_HitchhikersGuideToUnityAndTheMultiverse() Global
+;; Call using: CGF "CoraWantsAllTheBooks_Debug.GetBook_HitchhikersGuideToUnityAndTheMultiverse" 
+Function GetBook_HitchhikersGuideToUnityAndTheMultiverse() Global
   Actor PlayerRef = Game.GetPlayer()
   Book questbook = Game.GetFormFromFile(0x3700084F, "BooksRevamped.esm") as Book
   If (questbook == None)
@@ -11,8 +11,8 @@ Function Debug_GetBook_HitchhikersGuideToUnityAndTheMultiverse() Global
   EndIf
 EndFunction
 
-;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_CurrentBooksRead" 
-Function Debug_CurrentBooksRead() Global
+;; Call using: CGF "CoraTheBookHunter_DebugScript.CurrentBooksRead" 
+Function CurrentBooksRead() Global
   GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x71000800, "VenpiCore.esm") as GlobalVariable
   GlobalVariable CCR_MultipleBooksOnly = Game.GetFormFromFile(0x740008B7, "CoraCanRead.esm") as GlobalVariable
 
@@ -23,8 +23,8 @@ Function Debug_CurrentBooksRead() Global
   Debug.MessageBox(message)
 EndFunction
 
-;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_ToggleDebugMode" 
-Function Debug_ToggleDebugMode() Global
+;; Call using: CGF "CoraTheBookHunter_DebugScript.ToggleDebugMode" 
+Function ToggleDebugMode() Global
   GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x71000800, "VenpiCore.esm") as GlobalVariable
   If (Venpi_DebugEnabled == None)
     Debug.MessageBox("Failed to find Venpi_DebugEnabled global variable to toggle debug mode")
@@ -37,8 +37,8 @@ Function Debug_ToggleDebugMode() Global
   EndIf
 EndFunction
 
-;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_ToggleDebugMode" 
-Function Debug_ToggleMultipleBooksMode() Global
+;; Call using: CGF "CoraTheBookHunter_DebugScript.ToggleMultipleBooksMode" 
+Function ToggleMultipleBooksMode() Global
   GlobalVariable CCR_MultipleBooksOnly = Game.GetFormFromFile(0x740008B7, "CoraCanRead.esm") as GlobalVariable
   If (CCR_MultipleBooksOnly == None)
     Debug.MessageBox("Failed to find Venpi_DebugEnabled global variable to toggle debug mode")
