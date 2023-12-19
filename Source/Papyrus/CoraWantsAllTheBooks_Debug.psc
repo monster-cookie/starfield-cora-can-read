@@ -11,7 +11,7 @@ Function GetBook_HitchhikersGuideToUnityAndTheMultiverse() Global
   EndIf
 EndFunction
 
-;; Call using: CGF "CoraTheBookHunter_DebugScript.CurrentBooksRead" 
+;; Call using: CGF "CoraWantsAllTheBooks_Debug.CurrentBooksRead" 
 Function CurrentBooksRead() Global
   GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x71000800, "VenpiCore.esm") as GlobalVariable
   GlobalVariable CCR_MultipleBooksOnly = Game.GetFormFromFile(0x740008B7, "CoraCanRead.esm") as GlobalVariable
@@ -23,7 +23,7 @@ Function CurrentBooksRead() Global
   Debug.MessageBox(message)
 EndFunction
 
-;; Call using: CGF "CoraTheBookHunter_DebugScript.ToggleDebugMode" 
+;; Call using: CGF "CoraWantsAllTheBooks_Debug.ToggleDebugMode" 
 Function ToggleDebugMode() Global
   GlobalVariable Venpi_DebugEnabled = Game.GetFormFromFile(0x71000800, "VenpiCore.esm") as GlobalVariable
   If (Venpi_DebugEnabled == None)
@@ -37,7 +37,7 @@ Function ToggleDebugMode() Global
   EndIf
 EndFunction
 
-;; Call using: CGF "CoraTheBookHunter_DebugScript.ToggleMultipleBooksMode" 
+;; Call using: CGF "CoraWantsAllTheBooks_Debug.ToggleMultipleBooksMode" 
 Function ToggleMultipleBooksMode() Global
   GlobalVariable CCR_MultipleBooksOnly = Game.GetFormFromFile(0x740008B7, "CoraCanRead.esm") as GlobalVariable
   If (CCR_MultipleBooksOnly == None)
