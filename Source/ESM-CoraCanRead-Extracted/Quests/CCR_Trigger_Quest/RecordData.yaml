@@ -11,8 +11,10 @@ VirtualMachineAdapter:
       Name: QuestToTrigger
       Object: 000828:CoraCanRead.esm
   Fragments:
-  - ScriptName: ''
-    FragmentName: ''
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: CCR_Trigger_Quest_Fragments
+    FragmentName: Fragment_Stage_0010_Item_00
 Data:
   Unused: 0x000000
 Event: CLOC

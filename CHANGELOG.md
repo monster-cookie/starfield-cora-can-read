@@ -1,5 +1,11 @@
 # V1.0 Permutations
 
+## V1.0.17
+* Fixed typo preventing the CLOC trigger from starting the initial quest
+* Fixed some typos in the help text. 
+* Renamed CoraWantsAllTheBooks_Help to CCR_Help and CoraWantsAllTheBooks_Debug to CCR_Debug cause MessageBox sucks. 
+* /facepalm don't ask 
+
 ## V1.0.16
 * New debug commands and help text viewable im game using: CGF "CoraWantsAllTheBooks_Help.Show"
 * New feature flag so cora will only take books you have multiple copies of
