@@ -1,5 +1,8 @@
 # V1.0 Permutations
 
+## V1.0.18
+* Compatibility with latest Books Revamped and SFCP that I missed.
+
 ## V1.0.17
 * Fixed typo preventing the CLOC trigger from starting the initial quest
 * Fixed some typos in the help text. 

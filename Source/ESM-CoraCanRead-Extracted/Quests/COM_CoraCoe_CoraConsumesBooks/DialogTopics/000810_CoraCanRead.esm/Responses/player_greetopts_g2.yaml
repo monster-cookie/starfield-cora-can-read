@@ -6,7 +6,8 @@ Flags:
   - 0x1000
 DialogGroup: 0008B4:CoraCanRead.esm
 Responses:
-- Text:
+- Emotion: None
+  Text:
     TargetLanguage: English
     Value: On my journeys to different planets, I uncovered these amazing stories. If any of them align with your interests, let me know and you can have them.
   ScriptNotes: ''
